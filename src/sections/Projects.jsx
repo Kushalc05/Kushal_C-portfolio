@@ -27,7 +27,6 @@ function Projects() {
         <article className="featured-project">
 
           <div className="project-visual project-visual-image">
-
             <img
               src="/StockFlow_dashboard.png"
               alt="StockFlow e-commerce and inventory management application"
@@ -37,7 +36,6 @@ function Projects() {
               <span>01</span>
               <span>Java · Spring Boot · MySQL</span>
             </div>
-
           </div>
 
           <div className="featured-project-info">
@@ -67,10 +65,20 @@ function Projects() {
 
             <div className="project-links">
               <a
-                href="https://github.com/Kushalc05/StockFlow-E-Commerce-Inventory-Management"
+                href="https://stockflow-e-commerce-inventory-management-production.up.railway.app"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link project-link-primary"
+              >
+                Live Demo
+                <span>↗</span>
+              </a>
+
+              <a
+                href="https://github.com/Kushalc05/StockFlow-E-Commerce-Inventory-Management"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link project-link-secondary"
               >
                 GitHub
                 <span>↗</span>
@@ -86,12 +94,10 @@ function Projects() {
         <article className="showcase-project">
 
           <div className="showcase-project-visual">
-
             <img
               src="/shieldNet_dashboard.png"
               alt="ShieldNet AI-based cyber threat monitoring system dashboard"
             />
-
           </div>
 
           <div className="showcase-project-info">
@@ -194,7 +200,6 @@ function Projects() {
               </div>
 
             </div>
-
           </article>
 
           <aside className="future-project">
