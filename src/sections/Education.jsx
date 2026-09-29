@@ -36,7 +36,7 @@ function Education() {
 
               <div className="education-grade">
                 <span>CGPA</span>
-                <strong>8.35</strong>
+                <strong>8.34</strong>
                 <small>/ 10</small>
               </div>
             </div>

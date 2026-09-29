@@ -39,7 +39,7 @@ function About() {
 
             <div className="detail-item">
               <span>CGPA</span>
-              <strong>8.35 / 10</strong>
+              <strong>8.34 / 10</strong>
             </div>
 
             <div className="detail-item">
