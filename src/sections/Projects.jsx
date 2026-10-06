@@ -22,14 +22,14 @@ function Projects() {
         </div>
 
         {/* ================================
-            FEATURED PROJECT — STOCKFLOW
+            FEATURED PROJECT — PULSEWATCH
         ================================= */}
         <article className="featured-project">
 
           <div className="project-visual project-visual-image">
             <img
-              src="/StockFlow_dashboard.png"
-              alt="StockFlow e-commerce and inventory management application"
+              src="/PulseWatch_landing.png"
+              alt="PulseWatch real-time IoT device monitoring and alert platform"
             />
 
             <div className="visual-label">
@@ -41,6 +41,71 @@ function Projects() {
           <div className="featured-project-info">
 
             <span className="project-number">01</span>
+
+            <h3>PulseWatch</h3>
+
+            <p className="project-subtitle">
+              Real-Time IoT Device Monitoring &amp; Alert Platform
+            </p>
+
+            <p className="project-description">
+              A real-time IoT monitoring platform that processes simulated
+              device telemetry, stores readings in MySQL and generates
+              threshold-based alerts with real-time monitoring and device
+              status tracking.
+            </p>
+
+            <div className="project-technologies">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Spring Data JPA</span>
+              <span>Hibernate</span>
+              <span>MySQL</span>
+              <span>REST APIs</span>
+              <span>WebSocket</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div className="project-links">
+              <a
+                href="https://pulsewatch-d1yd.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link project-link-primary"
+              >
+                Live Demo
+                <span>↗</span>
+              </a>
+
+              <a
+                href="https://github.com/Kushalc05/PulseWatch"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link project-link-secondary"
+              >
+                GitHub
+                <span>↗</span>
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        {/* ================================
+            STOCKFLOW
+        ================================= */}
+        <article className="showcase-project">
+
+          <div className="showcase-project-visual">
+            <img
+              src="/StockFlow_dashboard.png"
+              alt="StockFlow e-commerce and inventory management application"
+            />
+          </div>
+
+          <div className="showcase-project-info">
+
+            <span className="project-number">02</span>
 
             <h3>StockFlow</h3>
 
@@ -86,12 +151,13 @@ function Projects() {
             </div>
 
           </div>
+
         </article>
 
         {/* ================================
             SHIELDNET
         ================================= */}
-        <article className="showcase-project">
+        <article className="showcase-project final-project">
 
           <div className="showcase-project-visual">
             <img
@@ -102,7 +168,7 @@ function Projects() {
 
           <div className="showcase-project-info">
 
-            <span className="project-number">02</span>
+            <span className="project-number">03</span>
 
             <span className="project-label">
               Final Year Project
@@ -163,60 +229,6 @@ function Projects() {
           </div>
 
         </article>
-
-        {/* ================================
-            SECONDARY PROJECTS
-        ================================= */}
-        <div className="secondary-projects">
-
-          <article className="secondary-project">
-
-            <div className="secondary-project-number">
-              03
-            </div>
-
-            <div className="secondary-project-content">
-
-              <span className="project-label">
-                Web Application
-              </span>
-
-              <h3>Eye Shopee</h3>
-
-              <p className="project-subtitle">
-                E-Commerce Web Application
-              </p>
-
-              <p className="project-description">
-                A full-stack e-commerce application developed using React.js,
-                Node.js and MySQL, with authentication, shopping cart,
-                product management, order management and an admin dashboard.
-              </p>
-
-              <div className="project-technologies">
-                <span>React.js</span>
-                <span>Node.js</span>
-                <span>MySQL</span>
-              </div>
-
-            </div>
-          </article>
-
-          <aside className="future-project">
-
-            <span>COMING NEXT</span>
-
-            <p>
-              One more technically stronger project is in progress.
-            </p>
-
-            <small>
-              The next project will be added here as the portfolio grows.
-            </small>
-
-          </aside>
-
-        </div>
 
       </div>
     </section>
