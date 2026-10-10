@@ -47,7 +47,7 @@ function Contact() {
               <span>kushal-c-sde ↗</span>
             </a>
 
-                <a href="/resume.pdf" download>
+                <a href="/Kushal_C_Resume.pdf" download>
                   Resume
                   <span>↓</span>
                 </a>
