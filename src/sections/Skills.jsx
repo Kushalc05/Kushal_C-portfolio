@@ -2,7 +2,7 @@ const skillGroups = [
   {
     number: '01',
     title: 'Languages',
-    skills: ['Java', 'JavaScript', 'SQL', 'HTML', 'CSS'],
+    skills: ['Java', 'SQL'],
   },
   {
     number: '02',
